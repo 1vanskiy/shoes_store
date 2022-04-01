@@ -1,0 +1,75 @@
+<div class="main-similar">
+            <p class="main-similar-text">Similar product</p>
+            <div class="main-similar-slider">
+                <a class="main-similar-slide-a" href="#">
+                    <div class="main-similar-slide1">
+                        <p class="similar-name">Jordan</p>
+                        <center class="similar-describtion">Sneakers Air Jordan High 1 Tie-Dye</center>
+                        <p class="similar-price">309€</p>
+                    </div>
+                </a>
+                <a class="main-similar-slide-a" href="#">
+                    <div class="main-similar-slide2">
+                        <p class="similar-name">Jordan</p>
+                        <center class="similar-describtion">Air Jordan 1 Retro High OG sneakers</center>
+                        <p class="similar-price">285€</p>
+                    </div>
+                </a>
+                <a class="main-similar-slide-a" href="#">
+                    <div class="main-similar-slide3">
+                        <p class="similar-name">Jordan</p>
+                        <center class="similar-describtion">Air Jordan 1 high-top sneakers</center>
+                        <p class="similar-price">341€</p>
+                    </div>
+                </a>
+                <a class="main-similar-slide-a" href="#">
+                    <div class="main-similar-slide4">
+                        <p class="similar-name">Jordan</p>
+                        <center class="similar-describtion">Air Jordan 1 Retro High OG obsidian/university blue</center>
+                        <p class="similar-price">700€</p>
+                    </div>
+                </a>
+                <a class="main-similar-slide-a" href="#">
+                    <div class="main-similar-slide5">
+                        <p class="similar-name">Jordan</p>
+                        <center class="similar-describtion">Air Jordan 1 Retro High '85 "Neutral Grey" sneakers</center>
+                        <p class="similar-price">532€</p>
+                    </div>
+                </a>
+                <a class="main-similar-slide-a" href="#">
+                    <div class="main-similar-slide6">
+                        <p class="similar-name">Jordan</p>
+                        <center class="similar-describtion">Air Jordan 1 Retro High OG sneakers</center>
+                        <p class="similar-price">532€</p>
+                    </div>
+                </a>
+                <a class="main-similar-slide-a" href="#">
+                    <div class="main-similar-slide7">
+                        <p class="similar-name">Jordan</p>
+                        <center class="similar-describtion">Air Jordan 1 Retro High OG "Shadow 2.0" sneakers</center>
+                        <p class="similar-price">510€</p>
+                    </div>
+                </a>
+                <a class="main-similar-slide-a" href="#">
+                    <div class="main-similar-slide8">
+                        <p class="similar-name">Jordan</p>
+                        <center class="similar-describtion">Air Jordan 1 Retro High OG black toe</center>
+                        <p class="similar-price">1509€</p>
+                    </div>
+                </a>
+                <a class="main-similar-slide-a" href="#">
+                    <div class="main-similar-slide9">
+                        <p class="similar-name">Jordan</p>
+                        <center class="similar-describtion">Air Jordan 1 Retro High OG shadow</center>
+                        <p class="similar-price">866€</p>
+                    </div>
+                </a>
+                <a class="main-similar-slide-a" href="#">
+                    <div class="main-similar-slide10">
+                        <p class="similar-name">Jordan</p>
+                        <center class="similar-describtion">Air Jordan 1 Retro High OG phantom</center>
+                        <p class="similar-price">306€</p>
+                    </div>
+                </a>
+            </div>
+        </div>
