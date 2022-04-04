@@ -261,6 +261,7 @@ main {
     color: #202020;
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .main-category-boxes {
@@ -285,7 +286,7 @@ main {
     border-radius: 10px;
 }
 
-.category-unisex {
+.category-all {
     width: 350px;
     height: 450px;
     border: 1px solid white;
@@ -312,12 +313,12 @@ main {
     border-top-right-radius: 10px;
 }
 
-.category-unisex-img {
+.category-all-img {
     height: 400px;
     width: 100%;
-    background-image: url(/img/unisex.jpg);
-    background-size: 115%;
-    background-position: center;
+    background-image: url(/img/all.jpg);
+    background-size: 220%;
+    background-position: bottom;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background-repeat: no-repeat;
@@ -330,10 +331,10 @@ main {
     justify-content: center;
 }
 
-/* SIMILAR SLIDER*/
-/* SIMILAR SLIDER*/
-/* SIMILAR SLIDER*/
-/* SIMILAR SLIDER*/
+/* trending SLIDER*/
+/* trending SLIDER*/
+/* trending SLIDER*/
+/* trending SLIDER*/
 .main {
     height: 1900px;
     width: 100%;
@@ -341,14 +342,14 @@ main {
 }
 
 
-.main-similar {
+.main-trending {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.main-similar-text {
+.main-trending-text {
     font-size: 40px;
     font-family: 'Fredoka', sans-serif;
     color: #202020;
@@ -358,22 +359,22 @@ main {
     margin-top: 50px;
 }
 
-.main-similar-slider {
+.main-trending-slider {
     background: #dbdad6;
     height: 445px;
     width: 95%;
 }
 
-.main-similar-slide1,
-.main-similar-slide2,
-.main-similar-slide3,
-.main-similar-slide4,
-.main-similar-slide5,
-.main-similar-slide6,
-.main-similar-slide7,
-.main-similar-slide8,
-.main-similar-slide9,
-.main-similar-slide10 {
+.main-trending-slide1,
+.main-trending-slide2,
+.main-trending-slide3,
+.main-trending-slide4,
+.main-trending-slide5,
+.main-trending-slide6,
+.main-trending-slide7,
+.main-trending-slide8,
+.main-trending-slide9,
+.main-trending-slide10 {
     width: 300px;
     height: 420px;
     border: 1px solid white;
@@ -388,43 +389,43 @@ main {
     transition-duration: 250ms;
 }
 
-.main-similar-slide1 {
-    background-image: url(/img/product/1/b.jpg);
+.main-trending-slide1 {
+    background-image: url(/img/products/1/b.jpg);
 }
 
-.main-similar-slide2 {
+.main-trending-slide2 {
     background-image: url(/img/products/2/b.jpg);
 }
 
-.main-similar-slide3 {
+.main-trending-slide3 {
     background-image: url(/img/products/3/b.jpg);
 }
 
-.main-similar-slide4 {
+.main-trending-slide4 {
     background-image: url(/img/products/4/b.jpg);
 }
 
-.main-similar-slide5 {
+.main-trending-slide5 {
     background-image: url(/img/products/5/b.jpg);
 }
 
-.main-similar-slide6 {
+.main-trending-slide6 {
     background-image: url(/img/products/6/b.jpg);
 }
 
-.main-similar-slide7 {
+.main-trending-slide7 {
     background-image: url(/img/products/7/b.jpg);
 }
 
-.main-similar-slide8 {
+.main-trending-slide8 {
     background-image: url(/img/products/8/b.jpg);
 }
 
-.main-similar-slide9 {
+.main-trending-slide9 {
     background-image: url(/img/products/9/b.jpg);
 }
 
-.main-similar-slide10 {
+.main-trending-slide10 {
     background-image: url(/img/products/10/b.jpg);
 }
 
@@ -434,52 +435,52 @@ main {
 
 /**/
 
-.main-similar-slide1:hover {
-    background-image: url(/img/product/1/a.jpg);
+.main-trending-slide1:hover {
+    background-image: url(/img/products/1/a.jpg);
     margin-top: -15px;
 }
 
-.main-similar-slide2:hover {
+.main-trending-slide2:hover {
     background-image: url(/img/products/2/a.jpg);
     margin-top: -15px;
 }
 
-.main-similar-slide3:hover {
+.main-trending-slide3:hover {
     background-image: url(/img/products/3/a.jpg);
     margin-top: -15px;
 }
 
-.main-similar-slide4:hover {
+.main-trending-slide4:hover {
     background-image: url(/img/products/4/a.jpg);
     margin-top: -15px;
 }
 
-.main-similar-slide5:hover {
+.main-trending-slide5:hover {
     background-image: url(/img/products/5/a.jpg);
     margin-top: -15px;
 }
 
-.main-similar-slide6:hover {
+.main-trending-slide6:hover {
     background-image: url(/img/products/6/a.jpg);
     margin-top: -15px;
 }
 
-.main-similar-slide7:hover {
+.main-trending-slide7:hover {
     background-image: url(/img/products/7/a.jpg);
     margin-top: -15px;
 }
 
-.main-similar-slide8:hover {
+.main-trending-slide8:hover {
     background-image: url(/img/products/8/a.jpg);
     margin-top: -15px;
 }
 
-.main-similar-slide9:hover {
+.main-trending-slide9:hover {
     background-image: url(/img/products/9/a.jpg);
     margin-top: -15px;
 }
 
-.main-similar-slide10:hover {
+.main-trending-slide10:hover {
     background-image: url(/img/products/10/a.jpg);
     margin-top: -15px;
 }
@@ -490,8 +491,8 @@ main {
 
 /**/
 
-.similar-name,
-.similar-price {
+.trending-name,
+.trending-price {
     font-size: 25px;
     font-family: 'Fredoka', sans-serif;
     color: #202020;
@@ -499,7 +500,7 @@ main {
     justify-content: center;
 }
 
-.similar-describtion {
+.trending-describtion {
     font-size: 15px;
     font-family: 'Fredoka', sans-serif;
     display: flex;
@@ -509,31 +510,31 @@ main {
 }
 
 
-.main-similar-slide1:hover .similar-describtion,
-.main-similar-slide2:hover .similar-describtion,
-.main-similar-slide3:hover .similar-describtion,
-.main-similar-slide4:hover .similar-describtion,
-.main-similar-slide5:hover .similar-describtion,
-.main-similar-slide6:hover .similar-describtion,
-.main-similar-slide7:hover .similar-describtion,
-.main-similar-slide8:hover .similar-describtion,
-.main-similar-slide9:hover .similar-describtion,
-.main-similar-slide10:hover .similar-describtion {
+.main-trending-slide1:hover .trending-describtion,
+.main-trending-slide2:hover .trending-describtion,
+.main-trending-slide3:hover .trending-describtion,
+.main-trending-slide4:hover .trending-describtion,
+.main-trending-slide5:hover .trending-describtion,
+.main-trending-slide6:hover .trending-describtion,
+.main-trending-slide7:hover .trending-describtion,
+.main-trending-slide8:hover .trending-describtion,
+.main-trending-slide9:hover .trending-describtion,
+.main-trending-slide10:hover .trending-describtion {
     /* animation for describ */
     display: flex;
 }
 
-.main-similar-slide-a {
+.main-trending-slide-a {
     margin-top: 20px;
     text-decoration: none;
     height: 400px;
     width: 302px;
 }
 
-/* SIMILAR SLIDER*/
-/* SIMILAR SLIDER*/
-/* SIMILAR SLIDER*/
-/* SIMILAR SLIDER*/
+/* trending SLIDER*/
+/* trending SLIDER*/
+/* trending SLIDER*/
+/* trending SLIDER*/
 
 .main-mini-baner {
     width: 100%;

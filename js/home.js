@@ -18,7 +18,7 @@ $(function () {
     $('.btn-fav').click(function () {
         $(this).toggleClass('change');
     });
-    $('.main-similar-slider').slick({
+    $('.main-trending-slider').slick({
         slidesToShow: 5,
         autoplay: true,
         autoplaySpeed: 2000,
