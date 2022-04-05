@@ -251,7 +251,7 @@ main {
 
 .main-category {
     width: 100%;
-    height: 500px;
+    height: 600px;
     background: #beab9e;
 }
 
@@ -336,7 +336,7 @@ main {
 /* trending SLIDER*/
 /* trending SLIDER*/
 .main {
-    height: 1900px;
+    height: 3000px;
     width: 100%;
     background-color: #dbdad6;
 }
@@ -540,4 +540,43 @@ main {
     width: 100%;
     height: 200px;
     background-image: url(/img/backgrounds/mini-baner.jpg);
+}
+
+
+/*  */
+
+.main-brands {
+    margin-top: 90px;
+    width: 100%;
+    height: 550px;
+    background-color: #dbdad6;
+    border-top: 1px solid red;
+    border-radius: 100px;
+}
+
+.main-brands-p {
+    font-size: 40px;
+    font-family: 'Fredoka', sans-serif;
+    color: #202020;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.main-brands-body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-brands-body-box1,
+.main-brands-body-box2,
+.main-brands-body-box3,
+.main-brands-body-box4 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.main-brands-body-box1 {
+    background-image: url(/img/logo/logo-b.png);
 }
