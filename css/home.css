@@ -545,38 +545,107 @@ main {
 
 /*  */
 
-.main-brands {
-    margin-top: 90px;
+.main-baner1 {
     width: 100%;
-    height: 550px;
-    background-color: #dbdad6;
-    border-top: 1px solid red;
-    border-radius: 100px;
+    height: 25px;
+    background-image: url(/img/backgrounds/mini-baner1.jpg);
+    background-size: 100%;
+    margin-top: 125px;
+}
+
+
+.main-brands {
+    width: 100%;
+    height: 860px;
+    background-color: #beab9e;
 }
 
 .main-brands-p {
+    padding-top: 40px;
     font-size: 40px;
     font-family: 'Fredoka', sans-serif;
+    font-weight: 600;
     color: #202020;
     display: flex;
     justify-content: center;
     padding-bottom: 100px;
 }
 
-.main-brands-body {
+.main-brands-body,
+.main-brands-body2 {
     display: flex;
     justify-content: space-around;
+}
+
+.main-brands-body2 {
+    margin-top: 30px;
 }
 
 .main-brands-body-box1,
 .main-brands-body-box2,
 .main-brands-body-box3,
-.main-brands-body-box4 {
+.main-brands-body-box4,
+.main-brands-body-box5,
+.main-brands-body-box6,
+.main-brands-body-box7,
+.main-brands-body-box8 {
     width: 300px;
     height: 300px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .main-brands-body-box1 {
-    background-image: url(/img/logo/logo-b.png);
+    background-image: url(/img/brands/nike.png);
+    background-size: 99%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-brands-body-box2 {
+    background-image: url(/img/brands/champion1.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-brands-body-box3 {
+    background-image: url(/img/brands/jordan.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-brands-body-box4 {
+    background-image: url(/img/brands/adidas.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main-brands-body-box5 {
+    background-image: url(/img/brands/converse.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-brands-body-box6 {
+    background-image: url(/img/brands/vans.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-brands-body-box7 {
+    background-image: url(/img/brands/lacoste.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-brands-body-box8 {
+    background-image: url(/img/brands/off-white.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
