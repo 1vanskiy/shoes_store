@@ -299,7 +299,7 @@ main {
 .category-woman-img {
     height: 400px;
     width: 100%;
-    background-image: url(/img/woman.jpg);
+    background-image: url(/img/arts/woman.jpg);
     background-size: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -308,7 +308,7 @@ main {
 .category-man-img {
     height: 400px;
     width: 100%;
-    background-image: url(/img/man.jpg);
+    background-image: url(/img/arts/man.jpg);
     background-size: cover;
     background-position: center;
     border-top-left-radius: 10px;
@@ -318,7 +318,7 @@ main {
 .category-all-img {
     height: 400px;
     width: 100%;
-    background-image: url(/img/all.jpg);
+    background-image: url(/img/arts/all.jpg);
     background-size: 220%;
     background-position: bottom;
     border-top-left-radius: 10px;
@@ -603,7 +603,7 @@ main {
 }
 
 .main-brands-body-box2 {
-    background-image: url(/img/brands/champion1.png);
+    background-image: url(/img/brands/bape.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
