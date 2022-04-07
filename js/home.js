@@ -10,13 +10,14 @@ $(document).ready(function () {
 });
 
 $(function () {
-    $('.product-slider').slick({
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        dots: true,
-    });
+    // $('.product-slider').slick({
+    //     infinite: true,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     autoplay: true,
+    //     dots: true,
+    //     // slider
+    // });
     $('.btn-fav').click(function () {
         $(this).toggleClass('change');
     });
@@ -26,7 +27,7 @@ $(function () {
         autoplaySpeed: 2000,
         autoPlayTimer: 2000,
         speed: 1000,
+        // slider
     })
 });
-
 
