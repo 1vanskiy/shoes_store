@@ -231,7 +231,7 @@ body {
 .main {
     margin: 0;
     background: #dbdad6;
-    height: 1000px;
+    height: 2000px;
 }
 
 .main-logo-brand {
@@ -286,6 +286,8 @@ body {
     height: 400px;
     /* background: skyblue; */
     /* display: block; */
+    /* margin-bottom: 40px; */
+
 }
 
 .main-models-p {
@@ -302,6 +304,7 @@ body {
     /* background: lightblue; */
     display: flex;
     justify-content: space-around;
+    /* margin-bottom: 50px; */
 }
 
 .main-models-body-box1,
@@ -313,41 +316,54 @@ body {
     height: 300px;
     border: 1px solid #202020;
     border-radius: 10px;
+    background: #ffffff;
 }
 
 .main-models-body-box1-img {
-    background-image: url(/img/arts/art.png);
+    background-image: url(/img/products/icon/airforce.jpg);
     background-size: cover;
+    background-position: bottom;
     background-repeat: no-repeat;
     width: 100%;
     height: 90%;
+    border-radius: 10px;
+    transition-duration: 300ms;
     z-index: 2;
 }
 
 .main-models-body-box2-img {
-    background-image: url(/img/arts/art.png);
+    background-image: url(/img/products/icon/airmax.jpg);
+    background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 90%;
+    border-radius: 10px;
+    transition-duration: 300ms;
     z-index: 2;
 }
 
 .main-models-body-box3-img {
-    background-image: url(/img/arts/art.png);
+    background-image: url(/img/products/icon/blazer.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: bottom;
     width: 100%;
     height: 90%;
+    border-radius: 10px;
+    transition-duration: 300ms;
     z-index: 2;
 }
 
 .main-models-body-box4-img {
-    background-image: url(/img/arts/art.png);
+    background-image: url(/img/products/icon/dunk.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: bottom;
     width: 100%;
     height: 90%;
+    border-radius: 10px;
+    transition-duration: 300ms;
     z-index: 2;
 }
 
@@ -361,4 +377,91 @@ body {
 .main-models-body-a {
     text-decoration: none;
     color: #202020;
+}
+
+.main-models-body-box1-img:hover {
+    background-image: url(/img/products/icon/airforce-swop.jpg);
+    transition-duration: 300ms;
+}
+
+.main-models-body-box2-img:hover {
+    background-image: url(/img/products/icon/airmax-swop.jpg);
+}
+
+.main-models-body-box3-img:hover {
+    background-image: url(/img/products/icon/blazer-swop.jpg)
+}
+
+.main-models-body-box4-img:hover {
+    background-image: url(/img/products/icon/dunk-swop.jpg);
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.main-pr {
+    display: flex;
+    white-space: normal;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-pr-slide1 {
+    width: 300px;
+    height: 420px;
+    border: 1px solid white;
+    background: #ffffff;
+    border-radius: 7px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-left: 27px;
+    transition-duration: 250ms;
+}
+
+.pr-name,
+.pr-price {
+    font-size: 25px;
+    font-family: 'Fredoka', sans-serif;
+    color: #202020;
+    display: flex;
+    justify-content: center;
+}
+
+.pr-describtion {
+    font-size: 15px;
+    font-family: 'Fredoka', sans-serif;
+    display: flex;
+    color: black;
+    justify-content: center;
+    display: none;
+    transform: scale(1);
+    transition-duration: 1000ms;
+
+}
+
+.main-pr-slide-a {
+    margin-top: 20px;
+    text-decoration: none;
+    height: 400px;
+    width: 302px;
+    margin: 50px;
+}
+
+.main-pr-slide1 {
+    background-image: url(/img/products/icon/airforce.jpg);
+    background-position: 0px -60px;
+    background-size: contain;
+}
+
+.main-pr-slide1:hover .pr-describtion {
+    /* animation for describ */
+    display: flex;
+    transition-duration: 1000ms;
 }
