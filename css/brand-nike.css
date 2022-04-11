@@ -231,7 +231,7 @@ body {
 .main {
     margin: 0;
     background: #dbdad6;
-    height: 2000px;
+    height: 5000px;
 }
 
 .main-logo-brand {
@@ -433,7 +433,7 @@ body {
     margin-left: 8px;
 }
 
-.main-pr-slide1 {
+.main-pr-slide {
     width: 300px;
     height: 420px;
     border: 1px solid white;
@@ -447,6 +447,11 @@ body {
     margin-left: 27px;
     transition-duration: 250ms;
 }
+
+
+
+
+
 
 .pr-name,
 .pr-price {
@@ -477,14 +482,150 @@ body {
     margin: 50px;
 }
 
-.main-pr-slide1 {
-    background-image: url(/img/products/icon/airforce.jpg);
-    background-position: 0px -60px;
-    background-size: contain;
-}
-
-.main-pr-slide1:hover .pr-describtion {
+.main-pr-slide:hover .pr-describtion {
     /* animation for describ */
     display: flex;
     transition-duration: 1000ms;
 }
+
+/* product images */
+/* product images */
+/* product images */
+
+
+#pr100 {
+    background-image: url(/img/products/100/a.jpg);
+    background-position: 0px -60px;
+    background-size: contain;
+}
+
+#pr101 {
+    background-image: url(/img/products/101/a.jpg);
+    background-position: 0px -60px;
+    background-size: contain;
+}
+
+#pr102 {
+    background-image: url(/img/products/102/a.jpg);
+    background-position: 0px -60px;
+    background-size: contain;
+}
+
+#pr103 {
+    background-image: url(/img/products/103/a.jpg);
+    background-position: 0px -60px;
+    background-size: contain;
+}
+
+#pr104 {
+    background-image: url(/img/products/104/a.jpg);
+    background-position: 0px -60px;
+    background-size: 98%;
+}
+
+#pr105 {
+    background-image: url(/img/products/105/a.jpg);
+    background-position: center;
+    background-size: 98%;
+}
+
+#pr106 {
+    background-image: url(/img/products/106/a.jpg);
+    background-position: 0px -60px;
+    background-size: contain;
+}
+
+#pr107 {
+    background-image: url(/img/products/107/a.jpg);
+    background-position: 0px -60px;
+    background-size: contain;
+}
+
+#pr108 {
+    background-image: url(/img/products/108/a.jpg);
+    background-position: 0px -60px;
+    background-size: contain;
+}
+
+#pr109 {
+    background-image: url(/img/products/109/a.jpg);
+    background-position: 0px -60px;
+    background-size: contain;
+}
+
+
+/* product images */
+/* product images */
+/* product images */
+
+/*  */
+
+/* CHANGE product images */
+/* CHANGE product images */
+/* CHANGE product images */
+
+
+#pr100:hover {
+    background-image: url(/img/products/100/b.jpg);
+    background-position: 0px -60px;
+    background-size: contain;
+}
+
+#pr101:hover {
+    background-image: url(/img/products/101/b.jpg);
+    background-position: 0px -60px;
+    background-size: contain;
+}
+
+#pr102:hover {
+    background-image: url(/img/products/102/b.jpg);
+    background-position: 0px -60px;
+    background-size: contain;
+}
+
+#pr103:hover {
+    background-image: url(/img/products/103/b.jpg);
+    background-position: 0px -60px;
+    background-size: contain;
+}
+
+#pr104:hover {
+    background-image: url(/img/products/104/b.jpg);
+    background-position: 0px -60px;
+    background-size: contain;
+}
+
+#pr105:hover {
+    background-image: url(/img/products/105/b.jpg);
+    background-position: center;
+    background-size: 98%;
+}
+
+#pr106:hover {
+    background-image: url(/img/products/106/b.jpg);
+    background-position: 0px -60px;
+    background-size: contain;
+}
+
+#pr107:hover {
+    background-image: url(/img/products/107/b.jpg);
+    background-position: 0px -60px;
+    background-size: contain;
+}
+
+#pr108:hover {
+    background-image: url(/img/products/108/b.jpg);
+    background-position: 0px -60px;
+    background-size: contain;
+}
+
+#pr109:hover {
+    background-image: url(/img/products/109/b.jpg);
+    background-position: 0px -60px;
+    background-size: contain;
+}
+
+
+/* CHANGE product images */
+/* CHANGE product images */
+/* CHANGE product images */
