@@ -496,7 +496,7 @@ body {
 #pr100 {
     background-image: url(/img/products/100/a.jpg);
     background-position: 0px -60px;
-    background-size: contain;
+    background-size: auto;
 }
 
 #pr101 {

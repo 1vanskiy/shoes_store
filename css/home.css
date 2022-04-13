@@ -639,7 +639,7 @@ main {
 
 .main-brands-body-box7 {
     background-image: url(/img/brands/lacoste.png);
-    background-size: contain;
+    background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
 }
