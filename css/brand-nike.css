@@ -553,6 +553,72 @@ body {
     background-size: contain;
 }
 
+#pr200 {
+    background-image: url(/img/products/200/a.jpg);
+    background-position: 0px -60px;
+    background-size: auto;
+}
+
+#pr201 {
+    background-image: url(/img/products/201/a.jpg);
+    background-position: 0px -60px;
+    background-size: auto;
+}
+
+#pr202 {
+    background-image: url(/img/products/202/a.jpg);
+    background-position: 0px -60px;
+    background-size: auto;
+}
+
+#pr203 {
+    background-image: url(/img/products/203/a.jpg);
+    background-position: 0px -60px;
+    background-size: auto;
+}
+
+#pr204 {
+    background-image: url(/img/products/204/a.jpg);
+    background-position: 0px -60px;
+    background-size: auto;
+}
+
+#pr205 {
+    background-image: url(/img/products/205/a.jpg);
+    background-position: 0px -60px;
+    background-size: auto;
+}
+
+#pr206 {
+    background-image: url(/img/products/206/a.jpg);
+    background-position: 0px -60px;
+    background-size: auto;
+}
+
+#pr207 {
+    background-image: url(/img/products/207/a.jpg);
+    background-position: 0px -60px;
+    background-size: auto;
+}
+
+#pr208 {
+    background-image: url(/img/products/208/a.jpg);
+    background-position: 0px -60px;
+    background-size: auto;
+}
+
+#pr209 {
+    background-image: url(/img/products/209/a.jpg);
+    background-position: 0px -60px;
+    background-size: auto;
+}
+
+#pr210 {
+    background-image: url(/img/products/210/a.jpg);
+    background-position: 0px -60px;
+    background-size: auto;
+}
+
 
 /* product images */
 /* product images */
@@ -623,6 +689,72 @@ body {
     background-image: url(/img/products/109/b.jpg);
     background-position: 0px -60px;
     background-size: contain;
+}
+
+#pr200:hover {
+    background-image: url(/img/products/200/b.jpg);
+    background-position: 0px -60px;
+    background-size: auto;
+}
+
+#pr201:hover {
+    background-image: url(/img/products/201/b.jpg);
+    background-position: 0px -60px;
+    background-size: auto;
+}
+
+#pr202:hover {
+    background-image: url(/img/products/202/b.jpg);
+    background-position: 0px -60px;
+    background-size: auto;
+}
+
+#pr203:hover {
+    background-image: url(/img/products/203/b.jpg);
+    background-position: 0px -60px;
+    background-size: auto;
+}
+
+#pr204:hover {
+    background-image: url(/img/products/204/b.jpg);
+    background-position: 0px -60px;
+    background-size: auto;
+}
+
+#pr205:hover {
+    background-image: url(/img/products/205/b.jpg);
+    background-position: 0px -60px;
+    background-size: auto;
+}
+
+#pr206:hover {
+    background-image: url(/img/products/206/b.jpg);
+    background-position: 0px -60px;
+    background-size: auto;
+}
+
+#pr207:hover {
+    background-image: url(/img/products/207/b.jpg);
+    background-position: 0px -60px;
+    background-size: auto;
+}
+
+#pr208:hover {
+    background-image: url(/img/products/208/b.jpg);
+    background-position: 0px -60px;
+    background-size: auto;
+}
+
+#pr209:hover {
+    background-image: url(/img/products/209/b.jpg);
+    background-position: 0px -60px;
+    background-size: auto;
+}
+
+#pr210:hover {
+    background-image: url(/img/products/210/b.jpg);
+    background-position: 0px -60px;
+    background-size: auto;
 }
 
 
